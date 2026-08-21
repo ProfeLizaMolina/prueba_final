@@ -1,0 +1,78 @@
+body{
+    text-decoration: none;
+    background-color: azure;
+    margin:0px;
+    padding: 0px;
+}
+a{
+    background-color: rgb(82, 135, 250);
+    color: aliceblue;
+    text-decoration: none;
+
+}
+h1{
+    
+    background-color: rgb(82, 135, 250);
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: aqua;
+    width: 100%;
+}
+
+.title{
+    background-color: rgb(82, 135, 250);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.historia{
+    width:420px;
+    height: 150px;
+    background-color: rgb(255, 255, 142);
+    text-align: center;
+    margin:0 auto;
+    box-shadow: 10px 10px 20px black ;
+    border-radius: 10px;
+
+}
+.inicio{
+    width:420px;
+    height: 150px;
+    background-color: rgb(255, 255, 142);
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 10px 10px 20px black ;
+    border-radius: 10px;
+}
+.form{
+    width:400px;
+    height: 300px;
+    background-color: rgb(255, 255, 142);
+    text-align: center;
+    margin: 0 auto;
+    margin-top:30px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px black ;
+    border-radius: 10px;
+
+}
+.sueños{
+    width:420px;
+    height: 150px;
+    background-color: rgb(255, 255, 142);
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 10px 10px 20px black ;
+    border-radius: 10px;
+    font-size: 20px;
+}

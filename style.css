@@ -1,0 +1,32 @@
+*{
+    margin:0 px;
+    padding:0 px;
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: rgb(82, 135, 250);
+    text-align: center;
+}
+nav{
+    background-color: rgb(82, 135, 250);
+    color:aliceblue;
+    margin-left:20 px ;
+    text-align: center;
+}
+a{
+    background-color: rgb(82, 135, 250);
+    color:aliceblue;
+}
+footer{
+    
+    
+}
+
+.title{
+    background-color: rgb(82, 135, 250);
+    margin: 0px;
+    padding: 0px;
+}
