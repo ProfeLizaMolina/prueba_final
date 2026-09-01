@@ -1,0 +1,42 @@
+article {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #0B132B;
+    border-radius: 10px;
+}
+
+label {
+    padding: 5px;
+    color: #4da7f1;
+    font-size: 15px;
+}
+
+#mensaje {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+#art-mensaje {
+    width: 422px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin: 20px 450px;
+}
+
+a{
+    color: aqua;
+    column-rule-color: aqua;
+}
