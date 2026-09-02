@@ -1,0 +1,144 @@
+/* Base general css */
+
+html {
+    font-family: sans-serif; /*Fuente de letra para toda la pagina*/
+}
+
+
+/*Estilo para todas las etiquetas*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+
+/*Estilo para enlaces*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Estilo Navbar superior de la pagina */ 
+
+nav {
+    display: flex;
+    padding: 20px 10px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #000;
+}
+
+/*Estilo de enlaces dentro de navbar superior*/
+nav a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* CSS Formulario */ 
+
+header {
+    width: 100%;
+    height: 30vh;
+    padding-top: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Estilos de la etiqueta main*/
+main {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+}
+
+
+/*Estilos para el formulario*/
+form {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nombre explicacion"
+    "motivo explicacion"
+    "enviar enviar";
+
+    row-gap: 50px;
+    column-gap: 40px;
+}
+
+/*Estilos para los inputs dentro del formulario*/
+form input {
+    padding: 20px 10px;
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: rgb(243, 243, 243);
+}
+
+/*estilos del select dentro de form*/
+form select {
+    padding: 20px 10px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+}
+
+/*estilos del textarea dentro de form*/
+form textarea {
+    padding: 30px 10px;
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Estilos para inputs especificos*/
+.container_motivo_contacto, .container_nombre {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/*Estilos para el boton de envio*/
+.button_submit {
+    border: none;
+    background-color: rgb(209, 209, 209);
+    color: rgb(63, 63, 63);
+}
+
+
+/*Estilos del footer inferior de la pagina*/
+footer {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

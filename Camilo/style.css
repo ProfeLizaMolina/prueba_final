@@ -1,0 +1,139 @@
+/* Reinicio de márgenes y padding para que el navegador no agregue espacios extra automaticamente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales del cuerpo de la página base: tipografía y color de fondo */
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #E2E8F0;
+    color: #334155;
+}
+
+/* Encabezado principal con fondo degradado y sombra abajo */
+header {
+    background: linear-gradient(#0F172A, #1E3A8A);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Menú de navegación que se queda "pegado" arriba al hacer scroll (position: sticky) */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-top: 15px;
+}
+
+/* Estilo de los links del menú y preparación para la animación al pasar el mouse */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Efecto de brillo en los links al pasar el mouse */
+nav a:hover {
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+/* Contenedor principal que limita el ancho de las cajas de contenido */
+main {
+    width: 85%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+/* Cajas de contenido con fondo blanco, bordes redondeados y línea azul a la izquierda */
+section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border-left: 6px solid #1E3A8A;
+}
+
+/* Animación de zoom y sombra para las cajas */
+.caja {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caja:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* Contenedor flexbox para alinear y distribuir los iconos uniformemente */
+.contenedor-imagenes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+/* Tamaño de los iconos y efecto de zoom al pasar el mouse */
+.icono-tech {
+    font-size: 70px;
+    transition: transform 0.3s ease;
+}
+
+.icono-tech:hover {
+    transform: scale(1.15);
+}
+
+/* Colores personalizados para cada icono */
+.html-color {
+    color: #E34F26;
+}
+
+.css-color {
+    color: #1572B6;
+}
+
+.github-color {
+    color: #0F172A;
+}
+
+/* Estilo de los títulos dentro de cada caja (línea inferior) */
+section h2 {
+    color: #1E3A8A;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #E2E8F0;
+    padding-bottom: 8px;
+    font-size: 24px;
+}
+
+/* Márgenes de los párrafos */
+section p {
+    margin-bottom: 20px;
+}
+
+section ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+section li {
+    margin-bottom: 12px;
+}
+
+/* Pie de página con degradado invertido */
+footer {
+    background: linear-gradient(#1E3A8A, #0F172A);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 40px;
+}

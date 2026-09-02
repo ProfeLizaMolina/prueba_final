@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a6d3fd;
+}
+
+.navbar {
+   background-color: #243447;
+   padding: 15px 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 0 0 10px #043874, 0 0 20px #0a3586, 0 0 30px #143d88;
+}
+
+nav {
+    background-color: #243447;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedoor {
+     width: 90%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+
+.contenedor {
+    width: 90%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ececec;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.cajita, .cajon {
+    width: 280px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    margin-top: 40px;
+}

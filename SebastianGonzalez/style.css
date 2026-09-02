@@ -1,0 +1,275 @@
+* -------------------------
+   CONFIGURACIÓN
+-------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+
+    background:
+        radial-gradient(circle at 50% 20%,
+        #241a38 0%,
+        #151021 55%,
+        #0f0b18 100%);
+
+    color: #eeeeee;
+}
+
+
+/* -------------------------
+   HEADER
+-------------------------- */
+
+header {
+    border-bottom: 1px solid #35294b;
+
+    background: rgba(15, 10, 27, 0.8);
+}
+
+nav {
+    height: 55px;
+
+    padding: 0 50px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+
+/* LOGO */
+
+.logo {
+    color: #9ee8d2;
+
+    font-size: 11px;
+
+    letter-spacing: 2px;
+}
+
+
+/* MENÚ */
+
+nav ul {
+    display: flex;
+
+    list-style: none;
+
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #aaa2b5;
+
+    text-decoration: none;
+
+    font-size: 9px;
+
+    letter-spacing: 1px;
+
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #9ee8d2;
+}
+
+
+/* -------------------------
+   INICIO
+-------------------------- */
+
+.inicio {
+    width: 600px;
+
+    max-width: 90%;
+
+    margin: 70px auto 100px;
+}
+
+
+/* SUBTÍTULO */
+
+.subtitulo {
+    color: #d39ae8;
+
+    font-size: 9px;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 10px;
+}
+
+
+/* TÍTULO */
+
+h1 {
+    color: #f1eef5;
+
+    font-size: 40px;
+
+    line-height: 1.05;
+
+    margin-bottom: 15px;
+}
+
+
+/* DESCRIPCIÓN */
+
+.descripcion {
+    color: #aaa3b6;
+
+    font-size: 11px;
+
+    line-height: 1.7;
+
+    margin-bottom: 25px;
+
+    max-width: 500px;
+}
+
+
+/* -------------------------
+   TARJETAS
+-------------------------- */
+
+.cards {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 8px;
+}
+
+
+.card {
+    background: rgba(39, 30, 59, 0.8);
+
+    border: 1px solid #3b3052;
+
+    border-radius: 6px;
+
+    padding: 20px;
+
+    min-height: 135px;
+
+    transition: 0.3s;
+}
+
+
+.card:hover {
+    transform: translateY(-4px);
+
+    border-color: #8b73aa;
+
+    background: #2b2141;
+}
+
+
+/* TÍTULOS */
+
+.card h2 {
+    color: #c9b8e8;
+
+    font-size: 16px;
+
+    margin-bottom: 10px;
+}
+
+
+/* TEXTO */
+
+.card p {
+    color: #9992a7;
+
+    font-size: 9px;
+
+    line-height: 1.6;
+
+    margin-bottom: 15px;
+}
+
+
+/* BOTONES */
+
+.btn {
+    color: #8ee0c5;
+
+    text-decoration: none;
+
+    font-size: 9px;
+
+    transition: 0.3s;
+}
+
+.btn:hover {
+    color: white;
+}
+
+
+/* -------------------------
+   FOOTER
+-------------------------- */
+
+footer {
+    border-top: 1px solid #35294b;
+
+    padding: 20px 50px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    color: #716a7c;
+
+    font-size: 8px;
+}
+
+
+/* -------------------------
+   CELULAR
+-------------------------- */
+
+@media (max-width: 650px) {
+
+    nav {
+        padding: 0 20px;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    nav ul li a {
+        font-size: 7px;
+    }
+
+    .inicio {
+        margin-top: 45px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}

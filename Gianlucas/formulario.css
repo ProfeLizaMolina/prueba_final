@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9; 
+    color: #333333;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #2c3e50;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #7f8c8d;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+form article {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    color: #34495e; 
+    margin-bottom: 8px;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+    padding: 12px;
+    border: 1px solid #dcdcdc; 
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: inherit;
+    width: 100%; 
+    transition: border-color 0.3s; 
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #2c3e50; 
+    outline: none;
+}
+
+textarea {
+    min-height: 150px; 
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #2c3e50;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    width: 100%; 
+}
+
+button[type="submit"]:hover {
+    background-color: #1a252f;
+}

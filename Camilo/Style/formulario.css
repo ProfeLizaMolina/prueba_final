@@ -1,0 +1,117 @@
+/* Reinicio general de la página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #E2E8F0;
+    color: #334155;
+}
+
+/* Título principal */
+header {
+    background: linear-gradient(#0F172A, #1E3A8A);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+/* Contenedor principal con un ancho fijo (850px) para mantener la forma del formulario */
+main {
+    width: 850px;
+    margin: 40px auto;
+}
+
+/* Estilo de las cajas (fondo blanco, sombra y bordes redondeados) */
+section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border-left: 6px solid #1E3A8A;
+}
+
+.caja {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caja:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+section h2 {
+    color: #1E3A8A;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #E2E8F0;
+    padding-bottom: 8px;
+    font-size: 24px;
+}
+
+/* ESTILOS DEL FORMULARIO */
+
+/* Diseño de las etiquetas de texto (Nombre, Apellido, etc.) */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Diseño de las cajas de texto y área de mensaje */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Estilo del botón de enviar del formulario (fondo azul, sin bordes) */
+input[type=submit] {
+    margin-top: 20px;
+    background: #1E3A8A;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Cambio de color del botón a un azul más oscuro al pasar el mouse */
+input[type=submit]:hover {
+    background: #0F172A;
+}
+
+footer {
+    background: linear-gradient(#1E3A8A, #0F172A);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 40px;
+}

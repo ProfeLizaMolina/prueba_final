@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+<header>
+<h1>El Formulario</h1>
+</header>
+<nav class="barranavegacion">
+                <a href="index.html">Inicio <i class="bi bi-house-fill"></i></a>
+                <a href="mi_historia.html">Mi historia <i class="bi bi-book-fill"></i></a>
+                <a href="formulario.html">Contacto <i class="bi bi-chat-dots"></i></a>
+                <a href="mis_suenos.html">Mis Aspiraciones <i class="bi bi-gem"></i></a>
+</nav>
+    <main>
+        <p class="ParrafoF"> Si estas interesado en mis trabajos comunicate conmigo enviandome un correo, yo estare leyendo tu mensaje!</p>
+        <section>
+            <form action="https://formspree.io/f/xvzegano" method="POST">
+                        <section id="Enviarmensaje">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="name" required placeholder="Ingresa tu nombre">
+
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido" name="name" required placeholder="Ingresa tu apellido">
+                        </section>
+
+                        <section id="Enviarmensaje">
+                            <label for="email">Correo:</label>
+                            <input type="email" id="email" name="email" required placeholder="Ingresa tu Correo@gmail.com">
+                        </section>
+
+                        <section class="tipomensaje">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="message" required placeholder="Razon del Correo electronico..."></textarea>
+                        </section>
+
+                        <section class="enviar">
+                            <button type="submit">Enviar</button>
+                        </section>
+                    </form>
+            <article>
+            <!-- Aquí va tu contenido -->
+            </article>
+        </section>
+    </main>
+<footer>
+        <p>Pagina Creada por: Rodrigo Rojas</p>
+        <a class="subir" href="index.html">volver al Inicio de Portafolio <i class="bi bi-arrow-up"></i> </a>
+</footer>
+</body>
+</html>

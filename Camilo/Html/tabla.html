@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <!-- Hoja de estilos vinculada a las tablas de presupuesto -->
+    <link rel="stylesheet" href="../Style/tabla.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Camilo Mori Vásquez</h1>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="quienesSomos.html">Quién Soy</a>
+            <a href="historiaDeUsuario.html">Historia</a>
+            <a href="formulario.html">Formulario</a>
+            <a href="tabla.html">Presupuesto</a>
+        </nav>
+    </header>
+
+    <main>
+
+    <section class="caja">
+        <h2>Resumen de Presupuesto</h2>
+
+        <!-- Tabla 1: Resumen general del proyecto economicamente -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Concepto</th>
+                    <th class="texto-derecha">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Total materiales</td>
+                    <td class="texto-derecha">$168.044</td>
+                </tr>
+                <tr>
+                    <td>Total mano de obra</td>
+                    <td class="texto-derecha">$460.000</td>
+                </tr>
+                <tr>
+                    <td>Costos indirectos</td>
+                    <td class="texto-derecha">$750</td>
+                </tr>
+                <tr class="fila-total">
+                    <td>Costo Total</td>
+                    <td class="texto-derecha">$628.794</td>
+                </tr>
+                <tr>
+                    <td>Margen (30%)</td>
+                    <td class="texto-derecha">$188.638</td>
+                </tr>
+                <tr class="fila-total precio-final">
+                    <td>Precio Final</td>
+                    <td class="texto-derecha">$817.432</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Materiales Utilizados</h2>
+
+        <!-- Tabla 2: Componentes técnicos -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Material</th>
+                    <th class="texto-centro">Cantidad</th>
+                    <th class="texto-derecha">Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tarjetas NFC</td>
+                    <td class="texto-centro">24</td>
+                    <td class="texto-derecha">$14.450</td>
+                </tr>
+                <tr>
+                    <td>Lector NFC PN532</td>
+                    <td class="texto-centro">2</td>
+                    <td class="texto-derecha">$36.984</td>
+                </tr>
+                <tr>
+                    <td>Cable Micro USB</td>
+                    <td class="texto-centro">1</td>
+                    <td class="texto-derecha">$3.290</td>
+                </tr>
+                <tr>
+                    <td>Batería</td>
+                    <td class="texto-centro">2</td>
+                    <td class="texto-derecha">$36.780</td>
+                </tr>
+                <tr>
+                    <td>Pantalla</td>
+                    <td class="texto-centro">2</td>
+                    <td class="texto-derecha">$71.390</td>
+                </tr>
+                <tr>
+                    <td>Cámara</td>
+                    <td class="texto-centro">2</td>
+                    <td class="texto-derecha">$19.600</td>
+                </tr>
+                <!-- Fila especial con combinación de celdas -->
+                <tr class="fila-total precio-final">
+                    <td colspan="2">Precio Final</td>
+                    <td class="texto-derecha">$182.494</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    </main>
+
+    <footer>
+        &copy; 2026 Camilo Mori Vásquez
+    </footer>
+
+</body>
+
+</html>

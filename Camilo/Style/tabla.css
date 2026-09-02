@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #E2E8F0;
+    color: #334155;
+}
+
+header {
+    background: linear-gradient(#0F172A, #1E3A8A);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+/* El main un poco más ancho (950px) para acomodar bien las columnas de la tabla */
+main {
+    width: 950px;
+    margin: 40px auto;
+}
+
+section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border-left: 6px solid #1E3A8A;
+}
+
+.caja {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caja:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+section h2 {
+    color: #1E3A8A;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #E2E8F0;
+    padding-bottom: 8px;
+    font-size: 24px;
+}
+
+/* ESTILOS DE LA TABLA */
+table {
+    width: 100%; /* Ocupa todo el ancho de la caja */
+    border-collapse: collapse; /* Elimina dobles bordes en las celdas */
+    margin-bottom: 35px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden; /* Asegura que las esquinas sigan redondeadas */
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+/* Estilo para los encabezados de las columnas (azul oscuro, texto blanco) */
+th {
+    background: #1E3A8A;
+    color: white;
+    font-weight: 600;
+}
+
+/* Línea sutil debajo de cada fila */
+tbody tr {
+    border-bottom: 1px solid #E2E8F0;
+}
+
+/* Colores intercalados para que la tabla sea más fácil de leer */
+tbody tr:nth-child(even) {
+    background: #F1F5F9;
+}
+
+/* Clases para alinear textos numéricos */
+.texto-derecha {
+    text-align: right;
+}
+
+.texto-centro {
+    text-align: center;
+}
+
+/* Resaltado para las filas de "Total" */
+.fila-total {
+    background-color: #E2E8F0;
+    font-weight: bold;
+    color: #0F172A;
+}
+
+/* Resaltado especial para el "Precio Final" */
+.precio-final {
+    background-color: #CBD5E1;
+    border-bottom: 2px solid #1E3A8A;
+    font-size: 18px;
+}
+
+footer {
+    background: linear-gradient(#1E3A8A, #0F172A);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 40px;
+}

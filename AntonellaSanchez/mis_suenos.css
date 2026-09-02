@@ -1,0 +1,11 @@
+.contenedor3 {
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.fotoss {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}

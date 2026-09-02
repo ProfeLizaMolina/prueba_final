@@ -1,0 +1,120 @@
+/* Base general css */
+
+
+/*Estilo de letra dentro de toda la pagina*/
+html {
+    font-family: sans-serif;
+}
+
+
+/*Estilos para todas las etiquetas dentro del HTML*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Estilos para todos los enlaces*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Estilo Navbar General */ 
+
+nav {
+    display: flex;
+    padding: 20px 10px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #000;
+}
+
+
+/* Estilos para los enlaces dentro del Navbar Superior*/
+nav a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 30vh;
+    padding-top: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Cards */
+
+main {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+}
+
+
+/*Estilos para las tarjetas de contenido*/
+.card {
+    flex: 1;
+    background-color: rgb(209, 209, 209);
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 30px;
+    height: 300px;
+}
+
+
+/*Estilos para las listas dentro de las tarjetas*/
+.card ul {
+    list-style: none;
+}
+
+
+/*Estilos para los elementos de lista dentro de las tarjetas*/
+.card ul li {
+    margin-bottom: 30px;
+}
+
+/* Footer Inferior de la pagina */
+
+footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

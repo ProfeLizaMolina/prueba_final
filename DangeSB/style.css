@@ -1,0 +1,73 @@
+nav{
+background-color: #333;
+padding: 15px;
+}
+
+nav ul{
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 30px;
+margin: 0;
+padding: 0;
+}
+
+nav ul li{
+display: inline;
+}
+
+nav ul li a{
+color: white;
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+padding: 10px 15px;
+}
+
+nav ul li a:hover{
+background-color: #555;
+border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.imagenes { 
+    display: flex; 
+    justify-content:space-between; 
+    align-items: center; 
+}
+.imagenes img { 
+   width: 200px;         
+    height: 200px;        
+    margin: 5px;         
+    border-radius: 40px;
+}
+
+/* Estilos para la tabla de suministros */
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+main table th, 
+main table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+main table thead tr {
+    background-color: #333;
+    color: white;
+}

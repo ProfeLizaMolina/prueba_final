@@ -1,0 +1,223 @@
+h1 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 3px 4px 5px #020202;
+}
+
+h2,label {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    text-shadow: 0px 0px 5px #020202;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 15px;
+    text-shadow: 0px 0px 4px #020202ea;
+}
+
+.ParrafoF {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 15px;
+    margin-top: 100px;
+}
+
+.barranavegacion {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #74c8ff8e;
+}
+
+a {
+    color: #fffdfd;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    background-color: #47daff00;
+    margin: 10px;
+    text-shadow: 0px 0px 4px #020202ea;
+}
+
+a:hover {
+    background-color: #9584e0;
+    color: rgb(0, 0, 0);
+}
+
+.barranavegacion a:hover {
+    background-color: #4d4bb3;
+    color: rgb(201, 201, 201);
+}
+
+#email {
+    font-size: 24px;
+    display: inline-block;
+    width: 450px;
+    justify-content: flex-start;
+    padding: 10px;
+    border: 1px solid;
+    margin: 10px;
+    margin-right: 394px;
+}
+
+#nombre, #apellido {
+    font-size: 24px;
+    display: inline-block;
+    width: 350px;
+    padding: 10px;
+    border: 1px solid;
+    margin: 10px;
+}
+
+.tipomensaje {
+    display: flex;
+    flex-direction: column;
+}
+
+#mensaje {
+    font-size: 24px;
+    display: inline-block;
+    width: 950px;
+    height: 210px;
+    padding: 10px;
+    border: 1px solid;
+    margin: 14px;
+}
+
+#Enviarmensaje {
+    background-color: #ff98ae00;
+    padding: 10px;
+    display: flex;
+    }
+
+form {
+    margin-top: 4%;
+    width: 1000px;
+    background-color: #0076c596;
+    box-shadow: 0 0 10px #0000006e;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+}
+
+.enviar {
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: rgb(42, 50, 165);
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+#textoH {
+    margin: 50px;
+}
+
+.historiaM1 {
+    width: 53%;
+    text-align: center;
+    margin-left: 23%;
+}
+
+.historiaM2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #ff98ae00;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+section {
+    background-color: #ff98ae00;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: #ff98ae00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px #0000006e;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+}
+
+body {
+    background-size: cover; 
+    width: 100%;
+    background-color: #f0f0f081;
+    margin: 0;
+    
+        
+}
+
+img {
+    margin: 20px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Imagen del fondo*/
+body {
+    background-image: url("https://cdn.pixabay.com/animation/2025/09/06/09/17/09-17-31-120_512.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

@@ -1,0 +1,17 @@
+Crea tu fork 
+Clonar la url en el visual studio code
+Crear tu carpeta de trabajo con tu nombre 
+Dentro de esa carpeta crea los siguientes archivos:
+
+Index.html
+historiadeUsuario.html
+quienesSomos.html
+tabla.html
+Presupuesto.html
+style.css
+
+Todos los archivos deben estar documentados con comentarios explicativos sobre 
+su contenido y funcionalidad. Asegúrate de seguir las buenas prácticas de 
+codificación y mantener un estilo consistente en todo el proyecto.
+
+Esto es del proyecto de desarrollo web.

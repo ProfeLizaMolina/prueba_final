@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+<!-- Header para titulo de la pagina -->
+    <header>
+        <h1>Formulario</h1>
+    </header>
+<!-- Navbar superior -->
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="mi_historia.html">Mi historia</a>
+        <a href="#">Formulario</a>
+        <a href="mis_suenos.html">Mis sueños</a>
+    </nav>
+<!-- Contenedor de secciones -->
+    <main>
+        <!-- Section contenedor del formulario -->
+        <section>  
+            <form action="">
+                <!-- Input para nombre -->
+                <div class="container_nombre" style="grid-area: nombre;">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" placeholder="Tu Nombre">
+                </div>
+
+                <!-- Select para entregar el motivo de la solicitud -->
+                <div class="container_motivo_contacto" style="grid-area: motivo;">
+                    <label for="motivo_contacto">¿Porque me quieres contactar?</label>
+                    <select name="Motivo de Contacto" id="">
+                        <option value="motivo">Trabajo</option>
+                        <option value="motivo">Duda/Consulta</option>
+                        <option value="motivo">Otro</option>
+                    </select>
+                </div>
+
+                <!-- Textarea para que usuario explique a detalle con sus palabras -->
+                <div style="grid-area: explicacion;">
+                    <textarea name="explicacion_contacto" placeholder="Explica el motivo del contacto"></textarea>
+                </div>
+
+                <!-- Input para enviar el formulario una vez respondido  -->
+                <input type="submit" value="Enviar" style="grid-area: enviar;" class="button_submit">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer inferior de la pagina -->
+    <footer>
+        <p>Creado por: Sebastian Pereira</p>
+    </footer>
+</body>
+</html>

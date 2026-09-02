@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos base del documento: Tipo de letra general, fondo gris claro y color de texto */
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #E2E8F0;
+    color: #334155;
+}
+
+/* Encabezado: Fondo en degradado azul, texto centrado y sombra inferior */
+header {
+    background: linear-gradient(#0F172A, #1E3A8A);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Separación inferior para el título principal dentro del encabezado */
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Espaciado de la barra nav respecto al título */
+nav {
+    margin-top: 15px;
+}
+
+/* Estilos de los enlaces del menú: Texto blanco, sin subrayado y con preparación para animación */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Efecto al pasar el cursor sobre los enlaces */
+nav a:hover {
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+/* Contenedor principal: Ancho fijo de 850px y centrado horizontal */
+main {
+    width: 850px;
+    margin: 40px auto;
+}
+
+/* Estructura Flexbox para la galería de fotos: Centra las imágenes con un espacio uniforme entre ellas */
+.contenedor-fotos {
+    display: flex;
+    justify-content: center; /* Centra las fotos horizontalmente */
+    gap: 30px; /* Separación directa entre las fotos */
+    margin-top: 25px;
+}
+
+/* Estilo del cuadro de la imagen: Simula un marco de fotografía con bordes redondeados y sombra */
+.marco-foto {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    padding: 8px;
+    border: 2px solid #E2E8F0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+/* Efecto interactivo al pasar el cursor sobre la foto: Pequeño zoom, cambio de borde y sombra más marcada */
+.marco-foto:hover {
+    transform: scale(1.03); /* Efecto de zoom al pasar el mouse */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-color: #1E3A8A; /* Cambia el borde a color azul al pasar el mouse */
+}
+
+/* Control de la imagen interna: Asegura que llene el marco sin distorsionarse */
+.marco-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Recorta la foto proporcionalmente sin deformar la cara o contenido */
+    border-radius: 4px;
+}
+
+/* Cajas/Tarjetas de contenido: Fondo blanco, sombra suave y una línea azul en el borde izquierdo */
+section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border-left: 6px solid #1E3A8A;
+}
+
+/* Animación suave para la elevación de las cajas */
+.caja {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el cursor por la caja: Aumenta levemente de tamaño y eleva la sombra */
+.caja:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* Títulos internos de sección con línea  azul */
+section h2 {
+    color: #1E3A8A;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #E2E8F0;
+    padding-bottom: 8px;
+    font-size: 24px;
+}
+
+/* Indentación y sangría para las listas */
+.lista {
+    margin-left: 25px;
+}
+
+/* Separación entre elementos individuales de la lista */
+.lista li {
+    margin-bottom: 10px;
+}
+
+/* Pie de página con degradado invertido */
+footer {
+    background: linear-gradient(#1E3A8A, #0F172A);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 40px;
+}

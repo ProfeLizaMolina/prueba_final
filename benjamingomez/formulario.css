@@ -1,0 +1,48 @@
+body{
+    background-color: #5BC0BE;
+
+}
+
+
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #3aa1a0;
+    border-radius: 10px;
+}
+
+label {
+    padding: 5px;
+    color: #3aa1a0;
+    font-size: 15px;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.benjamin{
+    text-align: center;
+
+}
+
+nav{
+
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+
+}
