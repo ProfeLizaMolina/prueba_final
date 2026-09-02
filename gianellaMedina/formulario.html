@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Formulario</title>
-    <link rel="stylesheet" href="estilo.css"> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de Contacto</title>
+
+<link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
 
-    <div class="formulario">
+<div class="formulario">
 
-        <h2>Formulario de Contacto</h2>
+<h1>Formulario de Contacto</h1>
+<p class="texto">Completa los siguientes datos</p>
 
-        <form>
+<form id="formulario">
 
-            <label>Nombre:</label>
-            <input type="text" placeholder="Ingrese su nombre" required>
+<div class="campo">
+<label for="nombre">Nombre</label>
+<input type="text" id="nombre" placeholder="Tu nombre" required>
+</div>
 
-            <label>Apellido:</label>
-            <input type="text" placeholder="Ingrese su apellido" required>
+<div class="campo">
+<label for="apellido">Apellido</label>
+<input type="text" id="apellido" placeholder="Tu apellido" required>
+</div>
 
-            <label>Gmail:</label>
-            <input type="email" placeholder="Ingrese su gmail" required>
+<div class="campo">
+<label for="gmail">Gmail</label>
+<input type="email" id="gmail" placeholder="Tu gmail" required>
+</div>
 
-            <label>DirecciÃ³n:</label>
-            <input type="text" placeholder="Ingrese su direccion">
+<div class="campo">
+<label for="direccion">Dirección</label>
+<input type="text" id="direccion" placeholder="Tu dirección" required>
+</div>
 
-            <label>TelÃ©fono:</label>
-            <input type="tel" placeholder="Ingrese su telefono">
+<div class="campo">
+<label for="telefono">Teléfono</label>
+<input type="tel" id="telefono" placeholder="Tu teléfono" required>
+</div>
 
-            <label>Comentario:</label>
-            <textarea placeholder="Escriba un comentario"></textarea>
+<div class="campo">
+<label for="comentario">Comentario</label>
+<textarea id="comentario" placeholder="comentario" required></textarea>
+</div>
 
-            <button type="submit">Enviar</button>
+<button type="submit">Enviar</button>
 
-        </form>
+<p id="mensaje"></p>
 
-    </div>
+</form>
+
+</div>
+    <footer>
+        <p>Creado por: Gianella Medina</p>
+    </footer
 
 </body>
 </html>
