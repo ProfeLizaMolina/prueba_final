@@ -1,4 +1,7 @@
+
+# prueba_final
 Lista de clases 
+
 1.- Evans Acuña
 2.-
 3.-Dante Retamal
@@ -35,7 +38,7 @@ Lista de clases
 34.-
 35.- Sebastian Gonzalez
 36.-
-37.-
+37.-Manuel ibañez
 38.- Camilo Mori
 39.- Sebastian Pereira
 40.-
