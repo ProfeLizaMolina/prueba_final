@@ -1,0 +1,88 @@
+body {
+    background-color: aquamarine;
+    margin: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20p
+    ;
+}
+
+h1 {
+    color: rgb(63, 20, 180);
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.samir123, .peña123 {
+    background-color: #007bff;
+    color: white;
+    width: 300px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    animation: flotar 3s ease-in-out infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.peña123 {
+    animation-delay: 0.5s;
+}
+
+
+
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 0;
+    text-align: center;
+}
+
+p, li {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    color: rgb(63, 20, 180);
+    font-weight: bold;
+    font-size: 16px;
+}
