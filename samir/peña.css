@@ -1,0 +1,91 @@
+body {
+    background-color: aquamarine;
+    margin: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+h1 {
+    color: rgb(63, 20, 180);
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 0;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    max-width: 1200px;
+    flex-grow: 1;
+}
+
+.cubo {
+    color: white;
+    width: 320px;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    animation: flotar 3s ease-in-out infinite; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.samir123 {
+    background-color: aquamarine;
+}
+
+.peña123 {
+    background-color: aqua;
+    animation-delay: 0.5s;
+}
+
+@keyframes flotar {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.cubo ul {
+    text-align: left;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.cubo li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.footer-form {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-form p {
+    color: rgb(63, 20, 180);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}

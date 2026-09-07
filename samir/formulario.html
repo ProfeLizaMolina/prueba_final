@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="huaman.css">
+</head>
+<body>
+    <div class="contenedor">
+        <main class="cubo">
+            <h1>Formulario de samir</h1>
+            <form action="/registro" method="post">
+                <p>
+                    <label for="nombre_completo">Tu nombre completo:</label>
+                    <input type="text" id="nombre_completo" name="nombre_completo" placeholder="Ingresa tu nombre">
+                </p>
+
+                <p>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo">
+                </p>
+
+                <p>
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" min="0" max="120" placeholder="Ej. 15">
+                </p>
+
+                <p>
+                    <label for="anio">Curso :</label>
+                    <input type="text" id="anio" name="anio" placeholder="Ej. Primero Medio">
+                </p>
+
+                <p>
+                    <label for="pais">País:</label>
+                    <select id="pais" name="pais">
+                        <option value="">Selecciona tu país</option>
+                        <option value="chile">Chile</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="peru">Perú</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="mexico">México</option>
+                    </select>
+                </p>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
