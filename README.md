@@ -15,7 +15,7 @@ Lista de clases
 10.-
 11.- Rodrigo Rojas
 12.- Nicolas Mesa
-13.-
+13.-samirpeñahuaman
 14.-
 15.-
 16.-Antonella 
